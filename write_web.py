@@ -26,9 +26,7 @@ DeadOrAlive2 = {'image':'doa2.png', 'name':'DeadorAlive2', 'rom':'DeadOrAlive2.b
 DeadOrAlive2Millenium = {'image':'doa2m.png', 'name':'DeadorAlive2Millenium', 'rom':'DeadOrAlive2Millenium.bin' }
 DeathCrimsonOX = {'image':'deathcox.png', 'name':'DeathCrimsonOX', 'rom':'DeathCrimsonOX.bin' }
 DokiDokiIdolStarSeeker = {'image':'dokidoki.png', 'name':'DokiDokiIdolStarSeeker', 'rom':'DokiDokiIdolStarSeeker.bin' }
-dol222 = {'image':'dolphinb.png', 'name':'DolphinBlue', 'rom':'dol222.bin' }
 DynamiteDekaEx = {'image':'dybb99.png', 'name':'DynamiteDekaEx', 'rom':'DynamiteDekaEx.bin' }
-FOTNS_Naomi2_Fixed = {'image':'fotns.png', 'name':'FistoftheNorthStar', 'rom':'FOTNS_Naomi2_Fixed.bin' }
 Giant_Gram_2000 = {'image':'gram2000.png', 'name':'GiantGram2KZnProWrestle3', 'rom':'Giant_Gram_2000.bin' }
 Giant_Gram_EPR = {'image':'gram2000.png', 'name':'GiantGramZen.ProWrestle2', 'rom':'Giant_Gram_EPR-21820_PATCHED.bin' }
 GigaWing2 = {'image':'gigawing2.jpg', 'name':'Gigawing2', 'rom':'GigaWing2.bin' }
@@ -105,17 +103,32 @@ WWF_Royal_Rumble = {'image':'wwfrr.jpg', 'name':'WWFRoyalRumble', 'rom':'WWF_Roy
 ZeroGunner2 = {'image':'zerogunner2.jpg', 'name':'ZeroGunner2', 'rom':'ZeroGunner2.bin' }
 ZombieRevenge = {'image':'zombrvn.png', 'name':'ZombieRevenge', 'rom':'ZombieRevenge.bin' }
 
-#atomswave
-SamuraiShodown6 = {'image':'samurai-shodown-6.jpg', 'name':'SamuraiShodown6', 'rom':'SamuraiShowdownVI.bin' }
-TheRumbleFish = {'image':'rumblefish.jpg', 'name':'TheRumbleFish', 'rom':'TheRumbleFish.bin' }
+#atomiswave
+AnimalBasket = {'image':'animal_basket.jpg', 'name':'AnimalBasket', 'rom':'gdrom_anmlbskt.bin' }
 DemolishFist = {'image':'dfist.jpg', 'name':'DemolishFist', 'rom':'demolishfist.bin' }
-FasterthanSpeed = {'image':'ftspeed.jpg', 'name':'FasterthanSpeed', 'rom':'ftspeed.bin' }
-GuiltyGearX15 = {'image':'ggx15.jpg', 'name':'GuiltyGearX15', 'rom':'ggx15.bin' }
-KnightsofValour = {'image':'kovss.jpg', 'name':'KnightsofValour', 'rom':'kov7spirits.bin' }
-MetalSlug6 = {'image':'ms6_a.jpg', 'name':'MetalSlug6', 'rom':'mslug6.bin' }
+DirtyPigskinFootball = {'image':'dirty_pigskin_football.jpg', 'name':'DirtyPigskinFootball', 'rom':'gdrom_dirtypigskin_v3.bin' }
+dol222 = {'image':'dolphinb.png', 'name':'DolphinBlue', 'rom':'dol222.bin' }
+DolphinBlue = {'image':'dolphin_blue.jpg', 'name':'DolphinBlue', 'rom':'dolphinblue.bin' }
+FasterThanSpeed = {'image':'faster_than_speed.jpg', 'name':'FasterThanSpeed', 'rom':'ftspeed.bin' }
+FOTNS_Naomi2_Fixed = {'image':'fotns.png', 'name':'FistoftheNorthStar', 'rom':'FOTNS_Naomi2_Fixed.bin' }
+GuiltyGearIsuka = {'image':'guiltygearisuka.jpg', 'name':'GuiltyGearIsuka', 'rom':'GuiltyGearIsuka.bin' }
+GuiltyGearX15 = {'image':'ggx15.jpg', 'name':'GuiltyGearX15', 'rom':'ggx15.bin' }        
+TheKingofFightersXI = {'image':'kofxi.jpg', 'name':'TheKingofFightersXI', 'rom':'gdrom_KOFXI_controles_JVS_OK_Video_OK_v4.bin' }
 TheKingofFightersNeowave = {'image':'kofneowave.jpg', 'name':'TheKingofFightersNeowave', 'rom':'KingOfFightersNeowave.bin' }
-GuiltyGearAsuka = {'image':'guiltygearisuka.jpg', 'name':'GuiltyGearAsuka', 'rom':'GuiltyGearIsuka.bin' }
-HokutonoKenFOTNS = {'image':'fistofthenorthstar.jpg', 'name':'HokutonoKenFOTNS', 'rom':'FOTNS_Naomi2_Fixed.bin' }
+KnightsofValour = {'image':'kovss.jpg', 'name':'KnightsofValour', 'rom':'kov7spirits.bin' }
+KnightsofValour7 = {'image':'kovss.jpg', 'name':'KnightsofValour7', 'rom':'kov7spirits_Naomi2_Fixed.bin' }
+MaximumSpeed = {'image':'maximum_speed.jpg', 'name':'MaximumSpeed', 'rom':'gdrom_maxspeed_v4.bin' }
+MetalSlug6 = {'image':'ms6.jpg', 'name':'MetalSlug6', 'rom':'mslug6.bin' }
+MetalSlug6Blood = {'image':'ms6.jpg', 'name':'MetalSlug6Blood', 'rom':'AW -Violent Metal Slug 6.bin' }
+TheRumbleFish = {'image':'rumblefish.jpg', 'name':'TheRumbleFish', 'rom':'gdrom-rumblefish.bin' }
+TheRumbleFish2 = {'image':'rumblefish2.jpg', 'name':'TheRumbleFish2', 'rom':'gdrom_rumblef2_v4.bin' }
+SalaryMan = {'image':'salary_man.jpg', 'name':'SalaryMan', 'rom':'gdrom_salmankt_JVS_OK_BIOS_OK_Video_OK.bin' }
+SamuraiShodown6 = {'image':'samurai-shodown-6.jpg', 'name':'SamuraiShodown6', 'rom':'SamuraiShowdownVI.bin' }
+SamuraiShodownVI = {'image':'samurai-shodown-6.jpg', 'name':'SamuraiShodownVI', 'rom':'gdrom_salmankt_JVS_OK_BIOS_OK_Video_OK.bin' }
+SegaBassFishingChallenge = {'image':'basschallenge.jpg', 'name':'SegaBassFishingChallenge', 'rom':'basschanllenge.bin' }
+SegaClayChallenge = {'image':'claychallenge.jpg', 'name':'SegaClayChallenge', 'rom':'gdrom_sprtshot.bin' }
+SportsShootingUSA = {'image':'sportsshooting.jpg', 'name':'SportsShootingUSA', 'rom':'ftspeed.bin' }
+SushiBar = {'image':'shushibar.jpg', 'name':'SushiBar', 'rom':'gdrom_Sushibar_v2.bin' }
 
 #Naomi 2
 BeachSpikers = {'image':'BeachSpikers.png', 'name':'BeachSpikers~', 'rom':' BeachSpikers.bin' }
