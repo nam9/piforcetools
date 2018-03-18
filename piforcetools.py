@@ -2,6 +2,7 @@
 # Written by TravistyOJ (AKA Capaneus)
 
 import os, collections, signal, sys, subprocess, socket
+import RPi.GPIO as GPIO
 import triforcetools
 from Adafruit_CharLCDPlate import Adafruit_CharLCDPlate
 from time import sleep
@@ -30,7 +31,7 @@ if revision.startswith('a'):
 else:
     lcd = Adafruit_CharLCDPlate()
 lcd.begin(16, 2)
-lcd.message(" Piforce Tools\n   Ver. 1.4")
+lcd.message(" Naomi Project\n   Ver. 1.4.")
 sleep(2)
 
 # Try to import game list script, if it fails, signal error on LCD
@@ -91,9 +92,18 @@ while True:
                 lcd.clear()
                 lcd.message(selection)			
             else:
+                GPIO.setmode(GPIO.BOARD)
+                GPIO.setup(40, GPIO.OUT)
+                GPIO.output(40,1)
+                sleep(0.4)
+                GPIO.output(40,0)
+                lcd.clear()
+                lcd.message("Hard Reset\nWait...")
+                sleep(2.0)
                 lcd.clear()
                 lcd.message("Connecting...")
-
+                
+                
                 try:
                     triforcetools.connect(ips[curr_ip], 10703)
                 except:
@@ -103,11 +113,12 @@ while True:
                     lcd.clear()
                     lcd.message(selection)
                     continue
-
+                
                 lcd.clear()
                 lcd.message("Sending...")
                 lcd.setCursor(10, 0)
-                lcd.ToggleBlink()
+                lcd.ToggleBlink()                
+                
 
                 triforcetools.HOST_SetMode(0, 1)
                 triforcetools.SECURITY_SetKeycode("\x00" * 8)
