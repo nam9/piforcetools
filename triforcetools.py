@@ -47,8 +47,13 @@ def HOST_Poke4(addr, data):
 	s.send(struct.pack("<IIII", 0x1100000C, addr, 0, data))
 
 def HOST_Restart():
-	s.send(struct.pack("<I", 0x0A000000))
-
+	GPIO.setmode(GPIO.BOARD)
+        GPIO.setup(40, GPIO.OUT)
+        GPIO.output(40,1)
+        sleep(0.4)
+        GPIO.output(40,0)
+        sleep(2.0)
+        
 # Read a number of bytes (up to 32k) from DIMM memory (i.e. where the game is). Probably doesn't work for NAND-based games.
 def DIMM_Read(addr, size):
 	s.send(struct.pack("<III", 0x05000008, addr, size))
